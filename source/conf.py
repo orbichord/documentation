@@ -17,7 +17,7 @@
 
 # -- Project information -----------------------------------------------------
 
-project = 'Orbichord'
+project = ''
 copyright = '2019, Victor E. Bazterra'
 author = 'Victor E. Bazterra'
 
@@ -80,3 +80,6 @@ napoleon_use_rtype = True
 
 # Mathjax settings
 mathjax_path="https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML"
+
+html_logo="orbilogo.png"
+
