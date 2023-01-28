@@ -37,7 +37,9 @@ extensions = [
     'sphinx.ext.ifconfig',
     'sphinx.ext.viewcode',
     'sphinx.ext.napoleon',
-    'nbsphinx'
+    'nbsphinx',
+    'IPython.sphinxext.ipython_console_highlighting',
+    'sphinxcontrib.googleanalytics'
 ]
 
 # Add any paths that contain templates here, relative to this directory.
@@ -64,7 +66,6 @@ html_static_path = ['_static']
 
 # -- Extension configuration -------------------------------------------------
 
-
 # Napoleon settings
 napoleon_google_docstring = True
 napoleon_numpy_docstring = True
@@ -80,6 +81,9 @@ napoleon_use_rtype = True
 
 # Mathjax settings
 mathjax_path="https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML"
+
+# GA configuration
+googleanalytics_id = 'G-WCRN64Q30Xs'
 
 html_logo="orbilogo.png"
 
